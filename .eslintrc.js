@@ -13,9 +13,6 @@ module.exports = {
       ecmaVersion: 12,
       sourceType: 'module',
    },
-   settings: {
-      'import/extensions': ['.js', '.jsx', '.ts', '.tsx', '.mjs'],
-   },
    plugins: ['react', '@typescript-eslint', 'prettier', 'import'],
    rules: {
       'no-console': ['warn', { allow: ['warn', 'error'] }],
